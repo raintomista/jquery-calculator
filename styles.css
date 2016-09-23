@@ -1,0 +1,152 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+@font-face {
+    font-family: "Nexa";
+    src: url(nexa.otf);
+}
+@font-face {
+    font-family: "Nexa Light";
+    src: url(nexa-light.otf);
+}
+body{
+    vertical-align: middle;
+    background-color: #dedede;
+}
+#calculator{
+    width: 580px;
+    height: 750px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #373a44;
+}
+#header-display{
+    font-family: "Nexa Light";
+    color: #ececec;
+    background-color: black;
+    width: 570px;
+    height: 300px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 0px 0px 15px 15px;
+}
+#header{
+    width: 533px;
+    height: 50px;
+    margin: 0px 13.5px 0px 13.5px;
+    padding: 5px 0px 15px 0px;
+    /*padding: 5px 5px 5px 5px;*/
+}
+#header h1{
+    margin: 0px;
+    padding-top: 20px;
+    font-family: "Nexa"
+}
+
+#header h2{
+    margin: 0px;
+    font-weight: normal;
+    /*font-family: monospace;*/
+}
+
+#display {
+    font-weight: 500;
+    font-family: digital;
+    background: #839393;
+    width: 533px;
+    height: 120px;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    margin: 60px 13.5px 0px 13.5px;
+}
+#display #expressions{
+    font-size: 40px;
+    font-family: digital;
+    margin: 0px;
+    height: 40px;
+    width: inherit;
+    background-color: transparent;
+    border: none;
+    text-transform: lowercase;
+
+}
+#display #answer{
+    text-align: right;
+    margin: 0px;
+    font-size: 80px;
+    font-family: digital;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    width: inherit;
+    text-transform: lowercase;
+
+}
+
+#special-fxns{
+    width: 543px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 13.5px 5px 13.5px;
+}
+.special-btns{
+    font-family: "Nexa";
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    width: 30px;
+    background-color: #14161f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 0px 24.5px 0px 0px;
+    font-weight: bolder;
+    float:left;
+    font-size: 20px;
+}
+
+.special-btns:last-of-type{
+    margin: 0px;
+}
+
+#standard-fxns{
+    width: 543px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 13.5px 5px 13.5px;
+}
+#standard-fxns span{
+    width: 70px;
+    float:left;
+    color: white;
+    font-size: 20px;
+    font-family: Nexa;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 15px 20px 15px;
+    margin: 10px 10.5px 10px 0px;
+    font-weight: bolder;
+}
+
+.gray-btn{
+    background-color: #9da3af;
+}
+
+.red-btn{
+    background-color: #8c2344;
+}
+
+#row1 span:last-of-type{
+    margin: 10px 0px 0px 0px;
+}
+
+#row2 span:last-of-type{
+    margin: 10px 0px 0px 0px;
+}
+
+#row3 span:last-of-type{
+    margin: 10px 0px 0px 0px;
+}
+#row4 span:last-of-type{
+    margin: 10px 0px 0px 0px;
+}

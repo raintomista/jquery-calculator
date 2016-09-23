@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Calculator</title>
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <style></style>
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="header-display">
+                <div id="header">
+                    <h1 id="test1">Casio</h1>
+                    <h2 id="test2">Two-way Power</h2>
+                </div>
+
+                <div id="display">
+                    <input type="text" id="expressions" autofocus="true" onload="this.focus()"/>
+                    <input type="text" id="answer" value="0"/>
+                </div>
+            </div>
+            <div id="special-fxns">
+                <span id="sin" class="special-btns" data-equiv="sin(">sin</span>
+                <span id="cos" class="special-btns" data-equiv="cos(">cos</span>
+                <span id="tan" class="special-btns" data-equiv="tan(">tan</span>
+                <span id="sqrt" class="special-btns" data-equiv="sqrt(">&radic;</span>
+                <span id="open-parenthesis" class="special-btns" data-equiv="(">(</span>
+                <span id="close-parenthesis" class="special-btns" data-equiv=")">)</span>
+            </div>
+            <div id="standard-fxns">
+                <div id="row1">
+                    <span id="seven" class="gray-btn" data-equiv="7">7</span>
+                    <span id="eight" class="gray-btn" data-equiv="8">8</span>
+                    <span id="nine" class="gray-btn" data-equiv="9">9</span>
+                    <span id="delete" class="red-btn">DEL</span>
+                    <span id="clear" class="red-btn">AC</span>
+                </div>
+                <div id="row2">
+                    <span id="four" class="gray-btn" data-equiv="4">4</span>
+                    <span id="five" class="gray-btn" data-equiv="5">5</span>
+                    <span id="six" class="gray-btn" data-equiv="6">6</span>
+                    <span id="times" class="gray-btn" data-equiv="&times;">&times;</span>
+                    <span id="divide" class="gray-btn" data-equiv="&divide;">&divide;</span>
+                </div>
+                <div id="row3">
+                    <span id="one" class="gray-btn" data-equiv="1">1</span>
+                    <span id="two" class="gray-btn" data-equiv="2">2</span>
+                    <span id="three" class="gray-btn" data-equiv="3">3</span>
+                    <span id="plus" class="gray-btn" data-equiv="+">&plus;</span>
+                    <span id="minus" class="gray-btn" data-equiv="-">&minus;</span>
+                </div>
+                <div id="row4">
+                    <span id="zero" class="gray-btn"  data-equiv="0">0</span>
+                    <span id="point" class="gray-btn"  data-equiv=".">.</span>
+                    <span id="exponent" class="gray-btn"  data-equiv="^">x^</span>
+                    <span id="ans" class="gray-btn">Ans</span>
+                    <span id="equals" class="gray-btn">=</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
